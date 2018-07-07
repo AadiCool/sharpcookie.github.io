@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sharp Cookie</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Eagle Lake' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<div class="header" style="background-color: black;" align="center">
+		  <img  src="logo.png" >
+		</div>
+
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+		  <div class="container-fluid" >
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+      			</button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li id="li"><a href="#container_background5" id="a"> <b id="navbar_font">Get in Touch</b> </a></li>
+			    	<li id="li"><a href="#container_background3" id="a"> <b id="navbar_font">About The Authors</b> </a></li>
+			        <li id="li"><a href="#container_background2" id="a"> <b id="navbar_font"> Book At A Glance</b> </a></li>
+			    </ul>
+			</div>    
+		  </div>
+		</nav>
+
+		<div class="content">
+
+		<!-- BOOK DISPLAY-->
+			<div class="container-fluid" id="container_background1" >
+				<div class="row">
+					<div class="col-md-4" id="book_images">
+						<img  src="front cover.png" data-toggle="modal" data-target="#myModal1">
+						<div id="myModal1" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+						    <div class="modal-content" style="font-family: Sofia; font-weight: 900;">
+						      <div class="modal-header" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title"><b>FRONT COVER</b></h4>
+						      </div>
+						      <div class="modal-body" id="modal_img">
+						      	<div class="container-fluid">
+						        	<img  src="front cover.png">
+						        </div>
+						      </div>
+						      <div class="modal-footer" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4" id="book_images">
+						<img  src="backCover.png" data-toggle="modal" data-target="#myModal2">
+						<div id="myModal2" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+						    <div class="modal-content" style="font-family: Sofia; font-weight: 900;">
+						      <div class="modal-header" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title"><b>BACK COVER</b></h4>
+						      </div>
+						      <div class="modal-body" id="modal_img">
+						      	<div class="container-fluid">
+						        	<img  src="backCover.png">
+						        </div>
+						      </div>
+						      <div class="modal-footer" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4" id="book_images">
+						<img  src="poster.png" data-toggle="modal" data-target="#myModal3">
+						<div id="myModal3" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+						    <div class="modal-content" style="font-family: Sofia; font-weight: 900;">
+						      <div class="modal-header" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+						        <h4 class="modal-title"><b>POSTER</b></h4>
+						      </div>
+						      <div class="modal-body" id="modal_img">
+						      	<div class="container-fluid">
+						        	<img  src="poster.png">
+						        </div>
+						      </div>
+						      <div class="modal-footer" style="background-color: rgba(255,99,71,.6);">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- BOOK AT A GLANCE -->
+			<div class="container-fluid" id="container_background2" >
+				<h2 id="glance_head">BOOK AT A GLANCE</h2>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<ul style="list-style-type:circle" id="glance_body">
+							  <li><p>
+							  	This book is a first of its kind attempt at providing concise solution to previous year question papers for the first year students of IIT Kharagpur.
+							  </p></li>
+							  <li><p>
+							  	This book contains 42 fully solved past year papers.
+							  </p></li>
+							  <li><p>
+							  	Key fomulae and key concepts are included to give the readers a boost and also to help them during the haste of revision.
+							  </p></li>
+							  <li><p>
+							  	It also comes with important tips and tricks that a student should adhere if aiming for a high cgpa.This tips have been jotted down by one of our author who himself had secured a 10 SGPA. 
+							  </p></li>
+							  <li><p>
+							  	We believe if this book is throughly solved and the advices(fundae) metriculously followed then it would ensure a decent CGPA for the readers. 
+							  </p></li>
+							</ul> 
+						</div>
+					</div>
+				</div>			
+			</div>
+
+			<!-- ABOUT THE AUTHORS -->
+			<div class="container-fluid" id="container_background3" >
+				<h2 id="author_head"><b>ABOUT THE AUTHORS</b></h2>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6"  class="div1">
+							<div class="hovereffect" id="author_images">
+						        <img class="img-responsive" src="parth.jpg" alt="Parth" id="author_images_body">
+						        <div class="overlay">
+						            <h2 id="author_body_head">Parth Sarthi Roy</h2>
+						            <p id="author_body_body">He is enrolled in 5 year integrated Dual Degree Course under the Department of Geology and Geo-physics with Applied Geology as his discipline. He is currently a sophomore at IIT Kharagpur and an Executive Member of The Institute Wellness Group (IWG). It was owing to his blood, sweat, tear and shear dedication towards the cause of the Book that resulted into the Book as it currently is. He is one of the driving forces behind the completion of the Book overcoming unsurmountable odds.</p>
+						            <a href="https://www.facebook.com/sarathi.roy.33" class="fa fa-facebook"></a>
+						        </div>
+						    </div>
+						</div>
+						<div class="col-md-6"  class="div2">
+							<div class="hovereffect" id="author_images">
+						        <img class="img-responsive" src="kanishka2.jpg" alt="Kanishka" id="author_images_body">
+						        <div class="overlay">
+						            <h2 id="author_body_head">Kanishka Halder</h2>
+						            <p id="author_body_body">He is enrolled in 5 year integrated Dual Degree Course under the Department of Electronics and Communication Engineering. He is currently a sophomore at IIT Kharagpur and an Executive Member of The Institute Wellness Group (IWG). His well-meant animus and unquenchable thirst for academic empowerment was a cardinal factor behind the foundation of this book. He fervently believes that “Education is the most powerful weapon which you can use to change the World.”</p>
+						            <a href="https://www.facebook.com/kanishka.halder.1" class="fa fa-facebook"></a>
+						        </div>
+						    </div>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-6"  class="div1">
+							<div class="hovereffect" id="author_images">
+						        <img class="img-responsive" src="aniruddha.png" alt="Aniruddha" id="author_images_body">
+						        <div class="overlay">
+						            <h2 id="author_body_head">Aniruddha Chattopadhyay</h2>
+						            <p id="author_body_body_ani">He is enrolled in 5 year integrated Dual Degree Course under the Department of Industrial and Systems Engineering with Quality Engineering and Design management(Industrial Electronics) as his discipline. He is currently a sophomore at IIT Kharagpur and an Executive Member of The Institute Wellness Group (IWG). With solicitousness in a moment of alacrity, he co-founded the idea of creating the first of its kind Previous Year Solution Book for the first Year students of IIT Kharagpur. He has also achieved a Department Change, his former discipline being Applied Geology.</p>
+						            <a href="https://www.facebook.com/aniruddha.chattopadhyay.5" class="fa fa-facebook"></a>
+						        </div>
+						    </div>
+						</div>
+						<div class="col-md-6" class="div2">
+							<div class="hovereffect" id="author_images">
+						        <img class="img-responsive" src="aadi3.jpg" alt="Aadi" id="author_images_body">
+						        <div class="overlay">
+						            <h2 id="author_body_head">Aadi Swadipto Mondal</h2>
+						            <p id="author_body_body">He is enrolled in 4 year B.Tech under The Department of Computer Science and Engineering. He is currently a sophomore at IIT Kharagpur. He is also a member of Ariel Robotics Kharagpur(ARK). He has secured a SGPA of 10 in Physics Semester and has achieved a department change from Instrumentation Engineering to Computer Science and Engineering. His mantra of success was rigorous solving of past year papers.</p>
+						            <a href="https://www.facebook.com/AadiSwadipto" class="fa fa-facebook"></a>
+						        </div>
+						    </div>
+						</div>
+					</div>
+				</div>			
+			</div>
+
+			<!-- The Cookie People -->
+			<div class="container-fluid" id="container_background4" >
+				<div class="row">
+					<div class="col-md-offset-1">
+						<div class="container-fluid" id="cookie_container">
+							<img src="cookiePeople.jpg" class="img-responsive" id="cookie_image">	
+							<div class="text-block"> 
+							    <h4 id="cookie_font">The Cookie People</h4>
+							  </div>
+						</div>	  
+					</div>
+				</div>	
+			</div>
+
+			<!-- Get in Touch -->
+			<div class="container-fluid" id="container_background5" >
+				<h2 id="glance_head"><b>GET IN TOUCH</b></h2>
+				<h4 id="intouch_body"> Phone No:</h4>
+					<ul style="list-style-type:circle" id="intouch_body">
+						<li><p>
+						  	Parth Sarthi Roy : 9340012957
+						</p></li>
+						<li><p>
+						  	Aadi Swadipto Mondal : 8777651851
+						</p></li>
+						 <li><p>
+						 	Aniruddha Chattopadhyay : 7980854639
+						</p></li>
+						<li><p>
+						  	Kanishka Halder : 9830749515
+						</p></li>
+					</ul> 
+					<a href="https://www.facebook.com/sarathi.roy.33" class="fa fa-facebook" style="margin: 1% 49%;"></a>		
+			</div>
+
+			<footer>
+				<h1 id="author_head" align="center" style="background-color: rgba(0,0,0,.8);"> THANK YOU </h1>
+				<h6 id="footer" align="center" style="background-color: rgba(0,0,0,.8);">All Rigths Reserved</h6>
+			</footer>
+		</div>
+	</body>
+	<!--<script src="script.js"></script>-->
+</html>	
